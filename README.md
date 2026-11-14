@@ -35,7 +35,10 @@ The ore names in the cave hover texts come from the game, in your game language.
 
 ## Install
 
-1. Install the [BepInEx Pack for The Last Plague: Blight](https://www.nexusmods.com/thelastplagueblight/mods/9).2. Extract this mod's zip into the game folder (the folder with the game .exe). The DLL lands in `BepInEx\plugins`. Full path example:
+Download the zip from [Nexus Mods](https://www.nexusmods.com/thelastplagueblight/mods/14) or [GitHub Releases](https://github.com/ivmakk-tlpb/tlpb-map-overhaul/releases).
+
+1. Install the [BepInEx Pack for The Last Plague: Blight](https://www.nexusmods.com/thelastplagueblight/mods/9).
+2. Extract this mod's zip into the game folder (the folder with the game .exe). The DLL lands in `BepInEx\plugins`. Full path example:
    - Steam: `C:\Program Files (x86)\Steam\steamapps\common\The Last Plague\BepInEx\plugins\MapOverhaul.dll`
 
 ## Uninstall
