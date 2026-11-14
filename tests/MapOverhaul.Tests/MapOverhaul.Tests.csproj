@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\src\Plugin.cs" Link="Plugin.cs" />
+    <Compile Include="..\..\src\Settings.cs" Link="Settings.cs" />
+    <Compile Include="..\..\src\Scan\PackedManifest.cs" Link="Scan\PackedManifest.cs" />
+    <Compile Include="..\..\src\Poi\PoiKind.cs" Link="Poi\PoiKind.cs" />
+    <Compile Include="..\..\src\Poi\Find.cs" Link="Poi\Find.cs" />
+    <Compile Include="..\..\src\Poi\PoiTable.cs" Link="Poi\PoiTable.cs" />
+    <Compile Include="..\..\src\Poi\PoiIndex.cs" Link="Poi\PoiIndex.cs" />
+    <Compile Include="..\..\src\Poi\DepositGrouper.cs" Link="Poi\DepositGrouper.cs" />
+    <Compile Include="..\..\src\Poi\CaveBuilder.cs" Link="Poi\CaveBuilder.cs" />
+    <Compile Include="..\..\src\Poi\PoiBuilder.cs" Link="Poi\PoiBuilder.cs" />
+    <Compile Include="..\..\src\Poi\HoverText.cs" Link="Poi\HoverText.cs" />
+    <Compile Include="..\..\src\Poi\PoiIds.cs" Link="Poi\PoiIds.cs" />
+    <Compile Include="..\..\src\Poi\MapPosition.cs" Link="Poi\MapPosition.cs" />
+    <Compile Include="..\..\src\Icons\IconPixels.cs" Link="Icons\IconPixels.cs" />
+    <Compile Include="..\..\src\Scan\ScanQueue.cs" Link="Scan\ScanQueue.cs" />
+    <Compile Include="..\..\src\Scan\MapOpenRule.cs" Link="Scan\MapOpenRule.cs" />
+    <Compile Include="..\..\src\Scan\ChunkCache.cs" Link="Scan\ChunkCache.cs" />
+    <Compile Include="..\..\src\Fog\FogTexture.cs" Link="Fog\FogTexture.cs" />
+    <Compile Include="..\..\src\Legend\LegendModel.cs" Link="Legend\LegendModel.cs" />
+    <Compile Include="..\..\src\Game\LegendPanel.cs" Link="Game\LegendPanel.cs" />
+    <Compile Include="..\..\src\Patches\LegendPatches.cs" Link="Patches\LegendPatches.cs" />
+    <Compile Include="..\..\src\Game\FogLayer.cs" Link="Game\FogLayer.cs" />
+    <Compile Include="..\..\src\Patches\FogPatches.cs" Link="Patches\FogPatches.cs" />
+    <Compile Include="..\..\src\Game\ChunkReader.cs" Link="Game\ChunkReader.cs" />
+    <Compile Include="..\..\src\Game\ScanRunner.cs" Link="Game\ScanRunner.cs" />
+    <Compile Include="..\..\src\Game\CacheStore.cs" Link="Game\CacheStore.cs" />
+    <Compile Include="..\..\src\Game\Session.cs" Link="Game\Session.cs" />
+    <Compile Include="..\..\src\Patches\ScanPatches.cs" Link="Patches\ScanPatches.cs" />
+    <Compile Include="..\..\src\Game\ItemNames.cs" Link="Game\ItemNames.cs" />
+    <Compile Include="..\..\src\Game\IconSprites.cs" Link="Game\IconSprites.cs" />
+    <Compile Include="..\..\src\Game\MapObjects.cs" Link="Game\MapObjects.cs" />
+    <Compile Include="..\..\src\Patches\MapPoiPatches.cs" Link="Patches\MapPoiPatches.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\assets\cabin-64.png" LogicalName="MapOverhaul.cabin-64.png" />
+    <EmbeddedResource Include="..\..\assets\cave-64.png" LogicalName="MapOverhaul.cave-64.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.10.1" />
+    <PackageReference Include="xunit.v3" Version="4.0.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="4.0.0" />
+  </ItemGroup>
+
+</Project>

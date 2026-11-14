@@ -1,0 +1,68 @@
+{
+  "nexus": {
+    "name": "Map Overhaul",
+    "author": "ivmakk",
+    "category": "Miscellaneous",
+    "summary": "Cabins, caves, and ore deposits on the Map, with fog of war and a legend."
+  },
+  "thumbnail": {
+    "out": "01-thumb.jpg",
+    "screenshot": "map-on.jpg",
+    "crop": [
+      300,
+      820,
+      1920,
+      1080
+    ],
+    "title": [
+      {
+        "text": "Map",
+        "accent": true
+      },
+      {
+        "text": "Overhaul"
+      }
+    ],
+    "rows": [
+      {
+        "icon": "MapOverhaul/cabin",
+        "caption": [
+          {
+            "text": "Cabins and caves",
+            "accent": true
+          },
+          {
+            "text": "on the game Map"
+          }
+        ]
+      },
+      {
+        "icon": "resources.assets/Texture2D/copper_rock_resource_1",
+        "caption": [
+          {
+            "text": "Ore deposits",
+            "accent": true
+          },
+          {
+            "text": "tin, copper, iron, silver"
+          }
+        ]
+      }
+    ]
+  },
+  "background": {
+    "out": "banner.jpg",
+    "screenshot": "map-on.jpg",
+    "crop": [
+      1180,
+      1250,
+      1420,
+      406
+    ],
+    "darken": [
+      "linear-gradient(90deg, rgba(12,12,14,0.92) 0%, rgba(12,12,14,0) 48%)",
+      "linear-gradient(180deg, rgba(12,12,14,0) 59%, rgba(12,12,14,0.6) 100%)"
+    ],
+    "overlays": []
+  }
+}
